@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Tinos:700|Tinos:400');
+
+* {
+    font-family: 'Tinos';
+    justify-self: center;
+}
+
+body {
+    width: 100;
+    color: black;
+}
+
+h1 {
+    font-size: 2.8rem;
+    background: #ebebeb;
+    padding: 1vh 1vw;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+.loreblock p, .linklist p, #leftcontainer p {
+    text-align: center;
+    font-size: 1.15rem;
+}
+
+.linklist p a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 a {
+    color: black;
+}
+
+.linklist .broken a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.linklist p a:hover, h2 a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.linklist a:visited, h2 a:visited {
+    color: black;
+}
+
+#bodycontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "leftdiv mid rightdiv";
+}
+
+#midcontainer {
+    width: 30vw;
+    background-color: #d6fff6;
+    padding: 10px 20px;
+    border-radius: 20px;
+    grid-area: mid;
+}
+
+#midcontainer hr {
+    width: 28vw;
+    height: 0.1vh;
+    background: black;
+    border-color: black;
+}
+
+#leftcontainer {
+    width: 30vw;
+    background-color: #c89933;
+    border-radius: 20px;
+    grid-area: leftdiv;
+}
+
+#rightcontainer {
+    width: 30vw;
+    grid-area: rightdiv;
+}
