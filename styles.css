@@ -42,7 +42,7 @@ h2 a {
 
 .linklist p a:hover, h2 a:hover {
     text-decoration: underline;
-    color: blue;
+    color: #0000ff;
 }
 
 .linklist a:visited, h2 a:visited {
@@ -57,7 +57,7 @@ h2 a {
 
 #midcontainer {
     width: 30vw;
-    background-color: #d6fff6;
+    background-color: #D0E3FB;
     padding: 10px 20px;
     border-radius: 20px;
     grid-area: mid;
@@ -72,12 +72,14 @@ h2 a {
 
 #leftcontainer {
     width: 30vw;
-    background-color: #c89933;
+    background-color: #D0E3FB;
     border-radius: 20px;
     grid-area: leftdiv;
 }
 
 #rightcontainer {
     width: 30vw;
+    background-color: #D0E3FB;
+    border-radius: 20px;
     grid-area: rightdiv;
 }
