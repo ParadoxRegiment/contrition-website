@@ -66,7 +66,7 @@ h2 a {
 #midcontainer {
     width: 30vw;
     background-color: #D0E3FB;
-    padding: 10px 20px;
+    padding: 0px 20px;
     border-radius: 20px;
     grid-area: mid;
 }
