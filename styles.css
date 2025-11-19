@@ -10,6 +10,10 @@ body {
     color: black;
 }
 
+body div {
+    text-align: center;
+}
+
 h1 {
     font-size: 2.8rem;
     background: #ebebeb;
@@ -19,6 +23,10 @@ h1 {
 
 h2 {
     font-size: 1.8rem;
+}
+
+h4 {
+    text-align: center;
 }
 
 .loreblock p, .linklist p, #leftcontainer p {
@@ -82,4 +90,26 @@ h2 a {
     background-color: #D0E3FB;
     border-radius: 20px;
     grid-area: rightdiv;
+}
+
+@media screen and (max-width: 450px) {
+    h1 {font-size: 2.5rem; text-align: center;}
+    h2 {font-size: 1.3rem;}
+    h3 {font-size: 1rem;}
+    #leftcontainer .linklist p,
+    #midcontainer .linklist p,
+    #rightcontainer .linklist p,
+    .loreblock p {
+        font-size: 0.95rem;
+    }
+    #leftcontainer .linklist p a,
+    #midcontainer .linklist p a,
+    #rightcontainer .linklist p a,
+    h2 a {
+    color: #0000ff;}
+    #leftcontainer .linklist .broken a,
+    #midcontainer .linklist .broken a,
+    #rightcontainer .linklist .broken a {
+        color: red;
+    }
 }
